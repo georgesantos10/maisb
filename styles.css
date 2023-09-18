@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    flex-direction:row;
+    
+ 
+}
+
+.produto {
+    border: 3px solid #1B98E0;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+.produto:hover{
+    cursor: pointer;
+}
+
+.produto img {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 1px;
+    
+}
+
+.produto h2 {
+    font-size: 1.15em;
+}
+
+.produto p {
+    font-size: 1em;
+    color: #666;
+}
+
+.precos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 3px solid #1B98E0;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+    margin: 10px;
+    width: 200px;
+    height: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+.preco img {
+    max-width: 80px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+    align-items: center;
+}
+/* ... (seu código CSS anterior) ... */
+
+.card .precos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+  }
+  
+  .card .preco {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .card .preco img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .card .preco span {
+    font-size: 0.9rem;
+  }
+  
+  /* Adicione estilos para os logos dos mercados se necessário */
+  
